@@ -77,6 +77,11 @@ function draw() {
          particle=null;
          if(count>=5) gameState="end";
        }
+       else{
+       score=score+100
+         particle=null;
+         if(count>=5) gameState="end";
+       }
          
      }
    }
